@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Playfair Display&display=swap');
+body {
+  font-family: Playfair Display, serif;
+    background: linear-gradient(0deg, #ffffff 0%, #023eb6 8%, #00fbff 62%, #ffffff 100%);
+}
+p {
+  color: black;
+}
+.nav-link {
+    color: rgb(238, 255, 0);
+}
+.navbar-nav .nav-link.active {
+    color: rgb(2, 255, 158);
+}
+.navbar-brand img {
+    width: 40px;
+}
+.navbar-toggler {
+    background-color: "col-lg-4 col-md-6"
+}
+.nav-right {
+color: rgb(55, 0, 252);
+background-color:linear-gradient(270deg, #ffffff 0%, #023eb6 8%, #00fbff 62%, #ffffff 100%); ;
+}
+.card {
+  background-color:linear-gradient(270deg, #ffffff 0%, #023eb6 8%, #00fbff 62%, #ffffff 100%) ;
+}
+.card a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.slide-text {
+  color: rgb(0, 0, 0);
+  margin: auto auto;
+}
+.footer-text {
+  color: rgb(0, 0, 0);
+  margin: auto auto;
+}
+footer,
+.btn-outline-primary {
+  background: linear-gradient(45deg, #006eff 0%, #ffffff 100%);
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-anime {
+  animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+  @keyframes myAnim {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+  
+    15% {
+      transform: translateX(-30px) rotate(-6deg);
+    }
+  
+    30% {
+      transform: translateX(15px) rotate(6deg);
+    }
+  
+    45% {
+      transform: translateX(-15px) rotate(-3.6deg);
+    }
+  
+    60% {
+      transform: translateX(9px) rotate(2.4deg);
+    }
+  
+    75% {
+      transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+@media (max-width: 750px) {
+.carousel-indicators {
+display: none;
+  }
+}
